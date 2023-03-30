@@ -1,8 +1,17 @@
 import React from 'react';
+import Header from './components/Header';
+import SolarSystem from './components/SolarSystem';
+import Mission from './components/Mission';
+import MissionCard from './components/MissionCard';
 
 class App extends React.Component {
   render() {
-    return (<p>Sistema Solar</p>);
+    return (
+      <Header />,
+      <SolarSystem />,
+      <Mission />,
+      <MissionCard />
+    );
   }
 }
 
