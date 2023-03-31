@@ -7,10 +7,12 @@ import MissionCard from './components/MissionCard';
 class App extends React.Component {
   render() {
     return (
+      <>
       <Header />,
       <SolarSystem />,
       <Mission />,
       <MissionCard />
+      </>
     );
   }
 }
