@@ -3,11 +3,9 @@ import PropTypes from 'prop-types';
 
 class Title extends React.Component {
   render() {
-    const { headline } = this.props;
+    const { headLine } = this.props;
     return (
-      <div>
-        <h2>{headline}</h2>
-      </div>
+      <h2>{headLine}</h2>
     );
   }
 }
